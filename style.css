@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #191825;
+}
+section{
+    border-radius: 15px 15px 15px;
+    margin-top: 50px;
+    width: 470px;
+    height: 500px;
+    background-color:#865DFF;
+    box-shadow: 5px 5px 5px #4b496663;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+h2#email{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    margin-left: 143px;
+    margin-top: 35px;
+    color: #4b496663;
+}
+@keyframes transitionEm{
+    0%{
+        transform:translateY(0px);
+    }
+    100%{
+        transform:translateY(-35px);
+    }
+}
+@keyframes CancelAniEm{
+    0%{
+        transform:translateY(-35px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+h2#key{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    margin-left: 143px;
+    margin-top: 55px;
+    color: #4b496663;
+}
+@keyframes transitionKe{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-35px);
+    }
+}
+@keyframes CancelAniKe{
+    0%{
+        transform: translateY(-35px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+input{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+}
+input#barEmail{
+    border-radius: 8px;
+}
+input#barKey{
+    border-radius: 8px;
+}
+input#barEmail:focus{
+    border-bottom: 5px solid #996798;
+}
+input#barKey:focus{
+    border-bottom: 5px solid #996798;
+}
+input#btnLogin{
+    font-size: 13pt;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+}
+ input#btnLogin:active{
+    transform: scale(0.95);
+ }
